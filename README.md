@@ -1,4 +1,4 @@
-# climate-change-news-api
+# Climate Change News API
 An API for climate change news around world.
 
 The Api is hosted on Rapidapi for use.
