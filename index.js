@@ -51,7 +51,7 @@ newspapers.forEach((newspaper) => {
         .then((response) => {
             const html = response.data;
             const $ = cheerio.load(html);
-            const arr = $('a:contains("climate")', html); //->****
+            const arr = $('a:contains("climate")', html); //-> ****
 
             for (let i = 0; i < arr.length; i++) {
                 const title = $(arr[i]).text();
